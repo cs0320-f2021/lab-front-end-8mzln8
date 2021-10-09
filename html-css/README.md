@@ -7,3 +7,9 @@ This will give you a barebones REPL, where you can enter text and you will be ou
 
 To run the GUI from command line add the following flags to the above:
 `./run --gui [--port=<port>]`
+
+
+A bunch of random commands to save myself the trouble:
+./run -data=<"src/main/resources/spark/template/freemarker/main.ftl"> \n --gui
+./run -data=<"src/main/resources/spark/template/freemarker/autocorrect.ftl"> \n --gui
+
