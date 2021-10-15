@@ -6,7 +6,7 @@
 
 function addTwoNumbers () {
     const val1 = document.querySelector('#first-input').value
-    const val2 = "?"
+    const val2 = document.querySelector('#second-input').value
     //TODO: get the value contained in the second input
     //TODO: check that neither input is the empty string (values retrieved from inputs are strings), if so return.
 
